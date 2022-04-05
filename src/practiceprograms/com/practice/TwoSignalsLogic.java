@@ -3,12 +3,11 @@ package practiceprograms.com.practice;
 public class TwoSignalsLogic {
 
 	public static void main(String[] args) {
-		
-		int[] sig1 = {1,2,3,3,3,5,4};
-		int[] sig2 = {1,2,3,4,3,5,4};
-		
+
+		int[] sig1 = { 1, 2, 3, 3, 3, 5, 4 };
+		int[] sig2 = { 1, 2, 3, 4, 3, 5, 4 };
+
 		printNoOfTimesUpdated(sig1, sig2);
-		
 	}
 
 	private static void printNoOfTimesUpdated(int[] sig1, int[] sig2) {
